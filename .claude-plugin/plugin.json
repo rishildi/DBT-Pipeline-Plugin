@@ -27,6 +27,11 @@
         "AZURE_CLIENT_ID": "${user_config.azure_client_id}",
         "AZURE_CLIENT_SECRET": "${user_config.azure_client_secret}"
       }
+    },
+    "powerbi-modeling-mcp": {
+      "type": "local",
+      "command": "npx",
+      "args": ["-y", "@microsoft/powerbi-modeling-mcp", "--start"]
     }
   },
   "hooks": {
